@@ -34,3 +34,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Contributing
+Refer to the contribution guidelines for this project [here](CONTRIBUTION.md)
