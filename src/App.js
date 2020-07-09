@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Gallery from './Components/Gallery';
 
 function App() {
   return (
-    <div className="App">
-      <span role="img" aria-label="books-emoji">📚📚</span>
-      BOOKS GALLERY
-      <span role="img" aria-label="books-emoji">📚📚</span>
-    </div>
+    <Router>
+      <React.Fragment>
+        <Route path ="/" exact component ={Gallery} />
+      </React.Fragment>
+    </Router>
   );
 }
 
