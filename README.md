@@ -2,6 +2,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Netlify deployment 👉🏽 https://booksgallery.netlify.app/
 
+## Download yarn package
+
+If you don't' have yarn installed on your computer you should download it from [here](https://classic.yarnpkg.com/en/docs/install/#mac-stable). Choose from the drop down menu an appropraite installation guide for your operating system.
+
+Once yarn is installed
+
+## Install exsisting packages 
+
+Using `yarn install`
+
 ## Available Scripts
 
 In the project directory, you can run:
