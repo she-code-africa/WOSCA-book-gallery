@@ -21,7 +21,6 @@ function Gallery(props) {
 }
 
 const mapStateToProps = state => {
-    console.log(state);
     return {
       count: state.counter.count,
     }
@@ -36,5 +35,6 @@ const mapStateToProps = state => {
   }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Gallery);
+
 
 
