@@ -10,9 +10,14 @@ const Login = () => {
   const InputType = visible ? "text" : "password";
 
 
-  const handlerChange = (event, handler) => {
-    const val = event.target.value
-    handler(val)
+  const onNameChange = (e) => {
+    const val = e.target.value
+    setName(val)
+  }
+
+  const onPasswordChange = (e) => {
+    const val = e.target.value
+    setPassword(val)
   }
 
   const onFormSubmit = (e) => {
@@ -29,14 +34,10 @@ const Login = () => {
     } else {
       setError('');
       // MAKE A POST REQUEST
-      const data = {
-        name,
-        password
       }
     }
-  }
+  
 
-  const fa = "fa-eye-slash"
   return (
     <div className="login">
         <div>
@@ -55,7 +56,7 @@ const Login = () => {
                   className="form-control p-4" 
                   value={name}
                   required
-                  onChange={(e) => handlerChange(e, setName)}
+                  onChange={onNameChange}
                 />
               </div>
               <div className="form-group">
@@ -67,7 +68,7 @@ const Login = () => {
                   className="form-control p-4" 
                   value={password}
                   required
-                  onChange={(e) => handlerChange(e, setPassword)}
+                  onChange={onPasswordChange}
                   
                 />
                 
