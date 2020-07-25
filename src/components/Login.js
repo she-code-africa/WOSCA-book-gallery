@@ -61,10 +61,9 @@ const Login = () => {
               </div>
               <div className="form-group">
                 <input  
-                  type="password" 
+                  type={InputType}
                   placeholder="Password" 
                   id="password" 
-                  type={InputType}
                   className="form-control p-4" 
                   value={password}
                   required
