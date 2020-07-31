@@ -39,8 +39,10 @@ const Login = () => {
   
 
   return (
+    <div className="d-flex justify-content-center align-items-center login-wrapper">
     <div className="login">
-        <div>
+     <div>
+     <div>
           <h4 className="heading py-3"><span className="bold">Superb</span>Books</h4>
         </div>
       <div className="py-5 px-5"> 
@@ -82,6 +84,9 @@ const Login = () => {
               <button className="btn button-reverse btn-block">Sign Up</button>
             </div>
       </div>
+     </div>
+    </div>
+
     </div>
   )
 }
