@@ -1,0 +1,122 @@
+.login-wrapper {
+  height: 100vh;
+}
+.login {
+  width: 45%;
+  border: 1px solid #e0e0e0;
+}
+
+.heading {
+  text-align: center;
+  color: #694de3;
+  border-bottom: 1px solid #e0e0e0;
+  font-weight: 300;
+}
+
+.form-control {
+  border-radius: 50px;
+  background-color: #e0e0e0;
+  color: black;
+}
+
+.form-control::placeholder {
+  color: black;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.button {
+  background-color: #694de3;
+  border-radius: 50px;
+  color: #fff;
+  padding: 10px 30px;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #694de3;
+  border: 2px solid #694de3;
+}
+
+.button:focus{
+  outline: 0;
+  box-shadow: none;
+}
+
+.button-reverse {
+  background-color: #fff;
+  color: #694de3;
+  border: 2px solid #694de3;
+  border-radius: 50px;
+  padding: 10px 30px;
+}
+
+.button-reverse:hover {
+  background-color: #694de3;
+  color: #fff;
+}
+
+.button:focus, .button-reverse:focus{
+  outline: 0;
+  box-shadow: none;
+}
+
+.forgot-password {
+  float: right;
+  color: #694de3;
+  margin-top: 0;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.small-text {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.title {
+  opacity: 0.8;
+  font-weight: 500;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form-group i{
+  position: absolute;
+  top: 35%; 
+}
+
+#pa-eye {
+   opacity: 0.5;
+  margin-left: 87%; 
+}
+
+@media (min-width: 1025px) {
+  #pa-eye {
+   margin-left: 90%; 
+ }
+}
+
+@media only screen and (max-width: 600px) {
+  .login {
+    width: 95%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 748px) {
+  .login {
+    width: 75%;
+  }
+}
+
+@media (min-width: 748px) and (max-width: 1000px) {
+  .login {
+    width: 55%;
+  }
+}
