@@ -5,9 +5,12 @@ This project is open for contributions. All contributions must adhere to the fol
 2. [React](https://github.com/airbnb/javascript/tree/master/react)   
 
 #### To get started:
-1. Create a feature branch for any issue you want to resolve
 
-2. Implement the said feature
+1. Fork this repository
+
+2. Create a feature branch for any issue you want to resolve
+
+3. Implement the said feature
 
 4. Commit your changes
 > Your commit message(s) should follow the format below. It should comprise of:
@@ -18,7 +21,7 @@ This project is open for contributions. All contributions must adhere to the fol
 > - ensure every event published to kafka is delivered exactly once
 > - implement error handling for failed delivery
 
-4. Raise a pull request to the `develop` branch
+5. Raise a pull request to the `develop` branch
 > Pull requests should also follow the format below:
 > ```
 > - What does this PR do?
@@ -28,4 +31,4 @@ This project is open for contributions. All contributions must adhere to the fol
 > - Screenshots (if appropriate)
 > - Questions
 
-5. Once your pull request has been reviewed and any possible feedback addressed, your work will be merged. 🎉🎉🎉
+6. Once your pull request has been reviewed and any possible feedback addressed, your work will be merged. 🎉🎉🎉
